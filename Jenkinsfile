@@ -1,4 +1,4 @@
-node {
+
     stage 'Stage 1'
     var http = require("http");
 
@@ -17,4 +17,4 @@ node {
     console.log('Server running at http://127.0.0.1:8081/');
     stage 'Stage 2'
     echo 'hello world2 here'
- }
+
